@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xapic\\Desktop\\python\\Introduction_to_C#\\homework 8\\homework_8\\Homework_8\\homework2\\homework2.csproj": {}
+    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xapic\\Desktop\\python\\Introduction_to_C#\\homework 8\\homework_8\\Homework_8\\homework2\\homework2.csproj": {
+    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xapic\\Desktop\\python\\Introduction_to_C#\\homework 8\\homework_8\\Homework_8\\homework2\\homework2.csproj",
+        "projectUniqueName": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj",
         "projectName": "homework2",
-        "projectPath": "C:\\Users\\xapic\\Desktop\\python\\Introduction_to_C#\\homework 8\\homework_8\\Homework_8\\homework2\\homework2.csproj",
-        "packagesPath": "C:\\Users\\xapic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xapic\\Desktop\\python\\Introduction_to_C#\\homework 8\\homework_8\\Homework_8\\homework2\\obj\\",
+        "projectPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj",
+        "packagesPath": "C:\\Users\\optim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xapic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\optim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
