@@ -7,19 +7,33 @@
 18 20
 15 18 
 */
-int i = ReadInt("Введите колличество строк: ");
-int j = ReadInt("Введите колличество столбцов: ");
+Console.WriteLine("Введите колличество строк: ");
+int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите колличество столбцов: ");
+int column = Convert.ToInt32(Console.ReadLine());
 
-int[,] firstArray = new int[i,j];
-int[,] secondArray = new int[j,j];
-int[,] resultArray = new int[i,j];
+int[,] firstArray = new int[rows,column];
+int[,] secondArray = new int[rows,column];
+int[,] resultArray = new int[rows,column];
 
-FillArray(firstArray)
-FillArray(secondArray)
-PrintArray(firstArray)
-PrintArray(secondArray)
-PrintArray(resultArray)
+FillArray(firstArray);
+FillArray(secondArray);
+PrintArray(firstArray);
+PrintArray(secondArray);
+PrintArray(resultArray);
 
+
+for (int i = 0; i < firstArray.GetLength(0); i++)
+{
+    for (int j = 0; j < secondArray.GetLength(1); j++)
+    {
+        resultArray[i, j] = 0;
+        for (int k = 0; k < firstArray.GetLength(1); k++)
+        {
+            resultArray[i, j] += firstArray[i, k] * secondArray[k, j];
+        }
+    }
+}
 
 void FillArray(int[,] array)
 {
@@ -43,4 +57,8 @@ void PrintArray( int[,] array)
     }
 System.Console.WriteLine();
 }
+
+
+
+
 
