@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj": {}
+    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework3\\homework3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj": {
+    "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework3\\homework3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj",
-        "projectName": "homework2",
-        "projectPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\homework2.csproj",
+        "projectUniqueName": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework3\\homework3.csproj",
+        "projectName": "homework3",
+        "projectPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework3\\homework3.csproj",
         "packagesPath": "C:\\Users\\optim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework2\\obj\\",
+        "outputPath": "C:\\Users\\optim\\OneDrive\\Desktop\\python\\HOMEWORK_8\\Homework_8\\Homework_8\\Homework_8\\homework3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\optim\\AppData\\Roaming\\NuGet\\NuGet.Config"
