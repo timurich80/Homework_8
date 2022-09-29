@@ -10,22 +10,38 @@
 
 
  int[,,] array3D = new int[2, 2, 2];
- FillArray(array3d);
+ FillArray(array3D);
  PrintArray(array3D);
 
- void FillArray(int[,,], array)
- {
-for (int i = 0; i < array.getLength(0); i++)
-{   
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-        for (int k = 0; k < array.GetLength(2); k++)
+ void FillArray(int[,,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {   
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            array3D[i,j,k] = new Random().Next(10,100);
-            if
-        }
+            for (int k = 0; k < array.GetLength(2); k++)
+            {
+                array3D[i,j,k] = new Random().Next(10,100);
+            }
         
+        }
+    
+    }
+}
+
+void PrintArray(int[,,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {   
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(2); k++)
+            {
+                System.Console.Write($"{array[i,j,k]} ({i} ,{j} ,{k})");
+            }
+        System.Console.WriteLine();
+        }
+    
     }
     
 }
- }
