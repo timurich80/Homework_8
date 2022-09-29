@@ -13,3 +13,18 @@ C:\Users\optim\OneDrive\Desktop\python\HOMEWORK_8\Homework_8\Homework_8\Homework
 C:\Users\optim\OneDrive\Desktop\python\HOMEWORK_8\Homework_8\Homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.pdb
 C:\Users\optim\OneDrive\Desktop\python\HOMEWORK_8\Homework_8\Homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.genruntimeconfig.cache
 C:\Users\optim\OneDrive\Desktop\python\HOMEWORK_8\Homework_8\Homework_8\Homework_8\homework3\obj\Debug\net6.0\ref\homework3.dll
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\bin\Debug\net6.0\homework3.exe
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\bin\Debug\net6.0\homework3.deps.json
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\bin\Debug\net6.0\homework3.runtimeconfig.json
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\bin\Debug\net6.0\homework3.dll
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\bin\Debug\net6.0\homework3.pdb
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.csproj.AssemblyReference.cache
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.AssemblyInfoInputs.cache
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.AssemblyInfo.cs
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.csproj.CoreCompileInputs.cache
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.dll
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\refint\homework3.dll
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.pdb
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\homework3.genruntimeconfig.cache
+C:\Users\xapic\Desktop\python\Introduction_to_C#\homework 8\homework_8\Homework_8\homework3\obj\Debug\net6.0\ref\homework3.dll

@@ -16,24 +16,16 @@ int[,] firstArray = new int[rows,column];
 int[,] secondArray = new int[rows,column];
 int[,] resultArray = new int[rows,column];
 
+
 FillArray(firstArray);
 FillArray(secondArray);
 PrintArray(firstArray);
+System.Console.WriteLine();
 PrintArray(secondArray);
-PrintArray(resultArray);
+System.Console.WriteLine();
 
 
-for (int i = 0; i < firstArray.GetLength(0); i++)
-{
-    for (int j = 0; j < secondArray.GetLength(1); j++)
-    {
-        resultArray[i, j] = 0;
-        for (int k = 0; k < firstArray.GetLength(1); k++)
-        {
-            resultArray[i, j] += firstArray[i, k] * secondArray[k, j];
-        }
-    }
-}
+
 
 void FillArray(int[,] array)
 {
@@ -52,13 +44,24 @@ void PrintArray( int[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i,j] =new Random().Next (1,10);
+             System.Console.Write($"{array[i,j]} ");
         }
+        System.Console.WriteLine();
     }
-System.Console.WriteLine();
+
 }
 
 
 
-
-
+for (int i = 0; i < firstArray.GetLength(0); i++)
+{
+    for (int j = 0; j < secondArray.GetLength(1); j++)
+    {
+        resultArray[i, j] = 0;
+        for (int k = 0; k < firstArray.GetLength(1); k++)
+        {
+            resultArray[i, j] += firstArray[i, k] * secondArray[k, j];
+        }
+    }
+}
+PrintArray(resultArray);
