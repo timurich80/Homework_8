@@ -1,47 +1,77 @@
-﻿/* 
-Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, 
-которая будет построчно выводить массив, добавляя индексы каждого элемента.
-Массив размером 2 x 2 x 2
-66(0,0,0) 25(0,1,0)
-34(1,0,0) 41(1,1,0)
-27(0,0,1) 90(0,1,1)
-26(1,0,1) 55(1,1,1)
- */
+﻿// /* 
+// Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, 
+// которая будет построчно выводить массив, добавляя индексы каждого элемента.
+// Массив размером 2 x 2 x 2
+// 66(0,0,0) 25(0,1,0)
+// 34(1,0,0) 41(1,1,0)
+// 27(0,0,1) 90(0,1,1)
+// 26(1,0,1) 55(1,1,1)
+//  */
 
+int i = 2;
+int j = 2;
+int k = 2;
+int[,,] testArray = new int[i, j, k];
 
- int[,,] array3D = new int[2, 2, 2];
- FillArray(array3D);
- PrintArray(array3D);
+FillArray(testArray);
+PrintArrayWithIdex(testArray);
 
- void FillArray(int[,,] array)
+void FillArray(int[,,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
-    {   
+    {
         for (int j = 0; j < array.GetLength(1); j++)
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
-                array3D[i,j,k] = new Random().Next(10,100);
+                while (array[i, j, k] == 0)
+                {
+                    int number = new Random().Next(10,100);
+
+                    if (IsNumberInArray(array, number) == false)
+                    {
+                        array[i, j, k] = number;
+                    }
+                }
+
             }
-        
         }
-    
     }
 }
 
-void PrintArray(int[,,] array)
+
+bool IsNumberInArray(int[,,] array, int number)
 {
     for (int i = 0; i < array.GetLength(0); i++)
-    {   
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(2); k++)
+            {
+                if (array[i, j, k] == number)
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+void PrintArrayWithIdex(int[,,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
         for (int j = 0; j < array.GetLength(1); j++)
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
                 System.Console.Write($"{array[i,j,k]} ({i} ,{j} ,{k})");
             }
-        System.Console.WriteLine();
+
+            Console.WriteLine();
         }
-    
+
     }
-    
 }
+
+
